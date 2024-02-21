@@ -1,0 +1,45 @@
+Simulation for 10 dice rolls:
+Number	       Frequency	        Probability
+1	               0	                 0.000%
+2	               1	                 0.100%
+3	               4	                 0.400%
+4	               2	                 0.200%
+5	               2	                 0.200%
+6	               1	                 0.100%
+
+Simulation for 100 dice rolls:
+Number	       Frequency	        Probability
+1	               21	                 0.210%
+2	               14	                 0.140%
+3	               13	                 0.130%
+4	               13	                 0.130%
+5	               21	                 0.210%
+6	               18	                 0.180%
+
+Simulation for 1000 dice rolls:
+Number	       Frequency	        Probability
+1	               174	                 0.174%
+2	               164	                 0.164%
+3	               160	                 0.160%
+4	               151	                 0.151%
+5	               176	                 0.176%
+6	               175	                 0.175%
+
+Simulation for 10000 dice rolls:
+Number	       Frequency	        Probability
+1	               1668	                 0.167%
+2	               1679	                 0.168%
+3	               1634	                 0.163%
+4	               1748	                 0.175%
+5	               1652	                 0.165%
+6	               1619	                 0.162%
+
+Simulation for 100000 dice rolls:
+Number	       Frequency	        Probability
+1	               16668	                 0.167%
+2	               16731	                 0.167%
+3	               16632	                 0.166%
+4	               16655	                 0.167%
+5	               16620	                 0.166%
+6	               16694	                 0.167%
+
