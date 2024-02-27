@@ -133,3 +133,33 @@ a = np.array([1, np.nan, 3, 4, 5])
 
 # Ignore 'nan' values for mean calculation
 mean_a = np.nanmean(a)
+
+
+
+
+with open("Lab1_pikachu.txt", "r") as file:
+
+    next(file)
+    for line in file:
+        width, height = line.strip().replace("(", "").replace(")", "").split(",")
+        width = float(width)
+        height = float(height)
+        Pikachu_data.append((width, height))
+
+with open("Lab1_pichu.txt", "r") as file:
+    next(file)
+    for line in file:
+        width, height = line.strip().replace("(", "").replace(")", "").split(",")
+        width = float(width)
+        height = float(height)
+        Pichu_data.append((width, height))
+
+
+def Training_Data(Pikachu_data, Pichu_data, num_samples=45):
+
+    Training_Pikachu = random.sample(Pikachu_data, num_samples)
+    Training_Pichu = random.sample(Pichu_data, num_samples)
+    Training_mean_width_height_Pikachu = np.mean(Training_Pikachu, axis=0)
+    training_mean_width_height_Pichu = np.mean(Training_Pichu, axis=0)
+
+    return Training_mean_width_height_Pikachu, training_mean_width_height_Pichu
